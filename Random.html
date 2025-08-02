@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+    background: #d5f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    font-family: 'Segoe UI', sans-serif;
+    
+}
+
+    .card {
+    background: white;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 280px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+
+    }
+    .card:hover{
+        background: #f5edfd;
+        width: 300px;
+        heigth:250px;
+        transform: scale(1.05);
+        box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    }
+
+    .card h2 {
+    margin: 0.5rem 0;
+    }
+
+    .card p {
+    color: #666;
+    margin-bottom: 1rem;
+    }
+
+    .socials a {
+    color: #333;
+    margin: 0 0.5rem;
+    font-size: 1.4rem;
+    text-decoration: none;
+    transition: color 0.3s;
+    }
+
+    .socials a:hover {
+    color: #0077b5; 
+    }
+
+    #g:hover {
+    color: #040001; 
+    }
+    #i:hover {
+    color: #f40357; 
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="avatar.jpeg" alt="Avatar" class="avatar">
+    <h2>Tanishka Patil</h2>
+    <p>Frontend Developer 💻</p>
+    <div class="socials">
+      <a href="#" id="l"><i class="fab fa-linkedin"></i></a>
+      <a href="#" id="g"><i class="fab fa-github"></i></a>
+      <a href="#" id="i"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+</body>
+</html>
