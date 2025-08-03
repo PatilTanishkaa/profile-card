@@ -1,22 +1,18 @@
-# profile-card
-A responsive profile card using HTML and CSS
-[Click here to view](https://tanishkapatil.github.io/profile-card/)
+# 🌟 Profile Card
+
+A responsive profile card created using HTML and CSS. It includes a circular avatar, name, short profession tagline, and social media icons with hover effects.
+
+## 🔗 [Click here to view the live demo](https://patiltanishkaa.github.io/profile-card/)
+
+---
 
 ## 💻 Tech Used
-- HTML5
-- CSS3
-- Font Awesome (for social icons)
 
+- HTML5  
+- CSS3  
+- [Font Awesome](https://fontawesome.com/) (for social icons)
+
+---
 
 ## 📁 Folder Structure
-/profile-card
-├── index.html
-├── style.css
-└── avatar.jpeg
-
-
-
-
-
-Ask ChatGPT
 
