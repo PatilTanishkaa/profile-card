@@ -14,5 +14,3 @@ A responsive profile card created using HTML and CSS. It includes a circular ava
 
 ---
 
-## 📁 Folder Structure
-
